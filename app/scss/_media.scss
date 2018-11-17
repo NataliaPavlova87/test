@@ -1,0 +1,96 @@
+@media only screen and (max-width:1140px) {
+    .header-top{padding: 40px 20px 0 20px;}
+    .header-heading {padding-left: 0; font-size: 80px;}
+    .header-text{padding-left: 0;}
+    .trendy{padding: 85px 30px 60px 30px; max-width: 80%;}
+    .trendy-inside{justify-content: space-around; padding-top: 30px;}
+    .trendy-inside__bag-position {margin-top: 0;}
+    .phone{flex-direction: column;}
+    .phone-text {width: 100%; padding: 20px 0 30px 0; text-align: center;}
+    .phone-img {width: 100%; background: url(../images/phone.png) no-repeat center center;}
+    .watches {padding: 100px 30px; width: 80%;}
+    .phone-text-inside{line-height: 34px;}
+    .watch-flex__div {margin-top: 0;}
+    .watch-flex__item {margin-top: 0;}
+    .phone-text-inside {padding-left: 40px; padding-right: 40px;}
+    .one-bag__img {margin-bottom: 24px;}
+    .watch-flex {justify-content: space-around; padding-top: 50px;}
+    .one-bag {padding-top: 30px; padding-bottom: 50px;}
+    .watches-heading {padding-bottom: 60px;}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {padding: 20px;}
+    .watch-img {height: 230px;}
+    .one-watch {width: 30%;}
+    .form-inside {width: 80%;}
+    .form-letter {margin-left: -20px;}
+    .nav-icon {width: 40%;}
+    .form { background: url(../images/get.png) no-repeat center 132px; background-size: contain;}
+}
+
+@media only screen and (max-width:767px) {
+    .header {height: 490px; background-size: cover;}
+    .header-top{padding: 40px 34px 10px 34px; flex-direction: column; align-items: flex-end;}
+    .trendy-inside__one-bag {padding-top: 30px;}
+    .header-input {width: 120px; padding: 5px 5px 5px 40px; font-size: 16px; background-size: 18%;}
+    .header-form {width: 250px; height: 40px; margin-top: 20px; margin-right: -20px;}
+    .header-select {font-size: 16px; padding-left: 12px; padding-right: 10px; width: 110px;}
+    .header-form__input {margin-left: 10px;}
+    .header-right {padding-top: 0;}
+    .header-heading {font-size: 48px;}
+    .header-text {font-size: 40px;}
+    .header-right__link {margin-top: 5px; margin-left: 50px;}
+    .header-link {padding: 20px 40px; font-size: 18px;}
+    .trendy {padding: 45px 30px 60px; transform: translate(0, -2%); -webkit-transform: translate(0, -2%); -moz-transform: translate(0, -2%); -ms-transform: translate(0, -2%); -o-transform: translate(0, -2%); }
+    .one-bag-img {height: 200px;}
+    .one-bag {padding-bottom: 30px;}
+    .phone-img {background-size: contain;}
+    .watches {padding-top: 50px; padding-bottom: 30px;}
+    .ui-button, .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button{font-size: 13px;}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {padding: 20px 10px;}
+    .watch-img {height: 150px;}
+    .one-watch {width: 80%;}
+    .form-submit {padding: 18px 45px;}
+    .form-mail {font-size: 18px;}
+    .nav-text {width: 80%;}
+    .nav-icon {width: 70%;}
+}
+
+@media only screen and (max-width:479px) {
+    .one-bag-span {font-size: 16px;}
+    .phone {padding-left: 10px; padding-right: 10px;}
+    .phone-head {padding-top: 10px;}
+    .phone-text-inside {font-size: 14px;}
+    .watch-span {font-size: 16px;}
+    .header-top {align-items: center;}
+    .header-bottom {justify-content: center;}
+    .header-text {font-size: 36px;} 
+    .header-link {padding: 20px; width: 114px; display: flex; justify-content: space-around; margin: 20px auto;}
+    .trendy-heading {font-size: 30px;}
+    .one-bag-img {height: 150px;}
+    .one-bag {padding-right: 20px; padding-left: 20px;}
+    .trendy {padding: 30px 10px 30px 10px;}
+    .phone-heading {font-size: 38px;}
+    .phone-head {font-size: 22px;}
+    .phone-text-inside {padding-left: 15px; padding-right: 15px;}
+    .phone-text-inside {font-size: 12px;}
+    .phone-img {min-height: 434px;}
+    .watches-heading {font-size: 36px; padding-bottom: 30px; line-height: 36px;}
+    .watches { padding: 50px 10px 30px 10px; transform:translate(0, 2%) ; -webkit-transform:translate(0, 2%) ; -moz-transform:translate(0, 2%) ; -ms-transform:translate(0, 2%) ; -o-transform:translate(0, 2%) ; }
+    .ui-tabs .ui-tabs-nav {flex-wrap: wrap; padding: 10px;}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {padding: 10px;}
+    .watch-img {height: 100px;}
+    .one-watch {padding: 20px;}
+    .form {padding-top: 96px; padding-bottom: 68px;}
+    .form-heading {font-size: 45px;}
+    .form-inside {padding-top: 65px; width: 75%;}
+    .form-submit {font-size: 14px; padding: 10px 20px;}
+    .form-mail {font-size: 12px;}
+    .form-letter {margin-left: -25px; height: 52px;}
+    .form-letter__submit {margin-right: -22px;}
+    .footer-top-inside {padding-top: 10px;}
+    .nav-text {width: 90%;}
+    .nav-link {font-size: 14px;}
+    .nav-icon {width: 86%;}
+    .header-heading {color: $col-white;}
+    .header-right {width: 100%; text-align: center;}
+
+}

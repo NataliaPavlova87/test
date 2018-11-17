@@ -1,0 +1,31 @@
+@media only screen and (max-width:1140px) {
+    .header-top{padding: 40px 20px 0 20px;}
+    .header-heading {padding-left: 0; font-size: 106px;}
+    .header-text{padding-left: 0;}
+    .trendy{padding: 85px 30px; max-width: 810px;}
+    .trendy-inside{justify-content: space-around;}
+    .trendy-inside__bag-position {margin-top: 0;}
+    .phone{flex-direction: column;}
+    .phone-text {width: 100%; padding: 90px 0 30px 0; text-align: center;}
+    .phone-img {width: 100%; background: url(../images/phone.png) no-repeat center center;}
+    .watches {padding: 100px 30px; width: 80%;}
+    .phone-text-inside{line-height: 34px;}
+    .watch-flex__div {margin-top: 0;}
+    .watch-flex__item {margin-top: 0;}
+    .phone-text-inside {padding-left: 40px; padding-right: 40px;}
+    .one-bag__img {margin-bottom: 24px;}
+    .watch-flex {justify-content: space-around; padding-top: 50px;}
+}
+
+@media only screen and (max-width:767px) {
+    .header-top{padding: 40px 34px;}
+    .trendy-inside__one-bag {padding-top: 30px;}
+}
+
+@media only screen and (max-width:479px) {
+    .one-bag-span {font-size: 16px;}
+    .phone {padding-left: 10px; padding-right: 10px;}
+    .phone-head {padding-top: 10px;}
+    .phone-text-inside {font-size: 14px;}
+    .watch-span {font-size: 16px;}
+}

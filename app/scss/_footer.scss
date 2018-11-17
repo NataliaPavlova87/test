@@ -1,0 +1,93 @@
+.footer-top-inside {
+    padding-top: 36px;
+    padding-bottom: 50px;
+}
+.footer-top-heading {
+    font-family: 'Roboto', sans-serif;
+    color:  $col-heading-footer;
+    font-size: 40px;
+    font-weight: $font-weight - 100;
+    line-height: 120px;
+    text-align: center;
+}
+.nav-text {
+    width: 44%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    & li {
+        list-style: none;
+    }
+}
+.nav-icon {
+    padding-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 27%;
+    & li {
+        list-style: none;
+    }
+}
+.nav-link {
+    font-family: OpenSans;
+    color: $col-footer-link;
+    font-size: 18px;
+    font-weight: $font-weight;
+    line-height: 26px;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.footer-icon {
+    width: 53px;
+    height: 53px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color:  $col-footer-icon;
+    font-size: 23px;
+    font-weight:$font-weight - 200;
+    line-height: 26px;
+    border: 2px solid $col-border-radius;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    &:hover {
+        border:2px solid $col-gradient-one;
+        color: $col-white;
+        background: -webkit-linear-gradient(63deg, $col-gradient-one 0%, $col-gradient-four 99%);
+        background: -moz-linear-gradient(63deg, $col-gradient-one 0%, $col-gradient-four 99%);
+        background: -o-linear-gradient(63deg, $col-gradient-one 0%, $col-gradient-four 99%);
+        background: -ms-linear-gradient(63deg, $col-gradient-one 0%, $col-gradient-four 99%);
+        background: linear-gradient(27deg, $col-gradient-one 0%, $col-gradient-four 99%);
+        box-shadow: 4px 7px 19px 1px rgba(207, 207, 208, 0.75);
+    }
+}
+.font-icon {
+    display: block;
+    margin-top: 15px;
+}
+.footer-bottom {
+    background-color: $col-bgr-footer;
+}
+.footer-bottom-inside {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.footer-bottom-span {
+    font-family: 'Montserrat', sans-serif;
+    color:  $col-span;
+    font-size: 15px;
+    font-weight: $font-weight - 300;
+    line-height: 26px;
+}
